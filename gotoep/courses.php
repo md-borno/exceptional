@@ -1,6 +1,4 @@
-
 <?php
-
     include("../include/config.php");
 
 	if((!isset($_SESSION['userId']) && empty($_SESSION['userId'])) && (!isset($_SESSION['userName']) && empty($_SESSION['userName']))) {
@@ -107,9 +105,6 @@
                 }else{
                     $message_picture =  '<b class="text-danger">Please Select Your Profile picture</b>';
                 }
-
-
-
                 if( ( isset($name) && !empty($name) ) && (isset($book_option) && !empty($book_option)) && (isset($instructor_option) && !empty($instructor_option)) && (isset($categorie_option) && !empty($categorie_option)) && (isset($description) && !empty($description)) && ( isset($newfilename) && !empty($newfilename) ) ){
 
 

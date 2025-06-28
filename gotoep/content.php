@@ -1,6 +1,4 @@
-
 <?php
-
    include("../include/config.php");
 
 	if((!isset($_SESSION['userId']) && empty($_SESSION['userId'])) && (!isset($_SESSION['userName']) && empty($_SESSION['userName']))) {

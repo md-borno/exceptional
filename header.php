@@ -99,6 +99,9 @@
 
 							<li><a href="index.php?page=contact"><div>Contact Us</div></a> </li>
 
+
+							<li><a href="gotoep?"><div>Login</div></a> </li>
+
 						</ul>
 
 					</nav><!-- #primary-menu end -->
