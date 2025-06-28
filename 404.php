@@ -24,6 +24,10 @@
 
 			</div>
 
-		</section><!-- #content end -->
+
+		</section>
+		<div>
+			<i></i>
+		</div>
 
 <?php include('footer.php'); ?>
